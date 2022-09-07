@@ -62,6 +62,7 @@ body {
 .fixed {
     width: 100%;
     position: fixed;
+    z-index: 1;
     padding: 20px;
     top: 0;
     
@@ -101,6 +102,7 @@ a:hover {
 
 .pad-main {
     padding: 50px;
+    margin-top: 75px;
 }
 
 .info {

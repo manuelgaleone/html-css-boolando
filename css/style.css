@@ -28,7 +28,7 @@
 }
 
 .pad-left {
-    padding-right: 100px;
+    padding-right: 125px;
 }
 
 .col-3 {
@@ -54,13 +54,23 @@ body {
 }
 
 /*Header*/
-.main-header {
+.main-header  {
     background-color: #FF6900;
+    
+}
+
+.fixed {
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    top: 0;
     
 }
 
 .main-menu a {
     color: white;
+    display: inline-block;
+    padding: 7px 7px;
 }
 
 a {

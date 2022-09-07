@@ -185,6 +185,10 @@ a:hover {
     margin-top: -65px;
 }
 
+.heart:hover {
+    color: red;
+}
+
 /*Footer*/
 .main-footer {
     background-color: black;

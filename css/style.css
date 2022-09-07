@@ -18,10 +18,10 @@
     justify-content: space-around;
 }
 
-.row-head {
+.row-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .pad {
@@ -42,6 +42,11 @@
 
 .col-6 {
     width: calc(100 / 12 * 6);
+
+}
+
+.col-9 {
+    width: calc(100 / 12 * 9);
 
 }
 
@@ -167,4 +172,22 @@ a:hover {
 
 .marg {
     margin-top: -65px;
+}
+
+/*Footer*/
+
+.main-footer {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin:auto;
+}
+
+.copyright {
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.social-icons {
+    padding-top: 10px;
 }

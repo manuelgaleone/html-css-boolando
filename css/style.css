@@ -179,15 +179,37 @@ a:hover {
 .main-footer {
     background-color: black;
     color: white;
-    padding: 25px;
+    padding: 30px;
     margin:auto;
 }
 
 .copyright {
     font-size: 15px;
-    padding-left: 5px;
+    text-align: left;
 }
 
 .social-icons {
     padding-top: 10px;
+}
+
+.footer-policy a {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+}
+
+.align {
+    text-align: left;
+}
+
+.find-us {
+    font-size: 16px;
+}
+
+.vert-align {
+    vertical-align: middle;
+}
+
+.pad-top {
+    padding-top: 7px;
 }

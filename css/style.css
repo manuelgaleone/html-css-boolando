@@ -18,8 +18,18 @@
     justify-content: space-around;
 }
 
+.row-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .pad {
     padding-top: 15px;
+}
+
+.pad-left {
+    padding-right: 100px;
 }
 
 .col-3 {
@@ -60,10 +70,15 @@ a:hover {
 
 #boolean-logo {
     width: 100px;
+    
 }
 
 .white {
     color: #FFFFFF;
+}
+
+.social {
+    padding-left: 10px;
 }
 
 /*Main*/

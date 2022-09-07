@@ -112,3 +112,22 @@ a:hover {
     right: -315px;
     text-align: center;
 }
+
+.brand {
+    margin-top: -75px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.product-name {
+    font-size: 15px;
+}
+
+.price {
+    color: red;
+}
+
+.offer {
+    color:black;
+    text-decoration:line-through
+}

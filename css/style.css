@@ -75,25 +75,31 @@ a:hover {
     padding: 50px;
 }
 
+.info {
+    position: absolute;
+
+}
+
 .percent {
-    padding: 5px;
-    width: 45px;
-    font-size: 13px;
-    color: white;
     position: relative;
+    padding: 5px;
     top: -50px;
+    height: 30px;
+    width: 50px;
+    color: white;
     text-align: center;
 }
 
 .sostenibility {
+    position: absolute;
     padding: 5px;
-    width: 100px;
-    font-size: 13px;
+    top: -50px;
+    left: 55px;
+    height: 30px;
+    width: 130px;
     color: white;
-    position: relative;
-    top: -75px;
-    left: 50px;
     text-align: center;
+    
 }
 
 .red {
@@ -107,14 +113,14 @@ a:hover {
 .heart {
     background-color: white;
     width: 35px;
-    position: relative;
-    top: -550px;
-    right: -315px;
+    position: absolute;
+    top: -500px;
+    left: 315px;
     text-align: center;
 }
 
-.brand {
-    margin-top: -75px;
+.product-info {
+    margin-top: 10px;
     font-weight: 400;
     font-size: 13px;
 }
@@ -125,6 +131,7 @@ a:hover {
 
 .price {
     color: red;
+    font-size: 13px;
 }
 
 .offer {

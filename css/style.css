@@ -1,5 +1,63 @@
+/*Common Settings*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+/*Utility Settings*/
+.container {
+    margin:auto;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pad {
+    padding-top: 17px;
+}
+
+.col-3 {
+    width: calc(100 / 12 * 3);
+}
+
+.col-6 {
+    width: calc(100 / 12 * 6);
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Header*/
+.main-header {
+    background-color: #FF6900;
+    height: 60px;
+    
+}
+
+.main-menu a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#boolean-logo {
+    width: 100px;
+}
+
+.white {
+    color: #FFFFFF;
 }

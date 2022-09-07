@@ -98,6 +98,11 @@ a:hover {
 /*Main*/
 #img-thumb {
     width: 350px;
+    position: relative;
+}
+
+#img-thumb:hover {
+    opacity: 0;
 }
 
 .pad-main {

@@ -102,6 +102,18 @@ a:hover {
     
 }
 
+.sostenibility-alone {
+    position: absolute;
+    padding: 5px;
+    top: -50px;
+    left: 0px;
+    height: 30px;
+    width: 130px;
+    color: white;
+    text-align: center;
+    
+}
+
 .red {
     background-color: red;
 }
